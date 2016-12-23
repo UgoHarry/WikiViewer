@@ -1,7 +1,7 @@
 var express = require ('express');
 var app = express();
 
-//ROUTING
+//ROUTING. IMPORTANT: TO SERVE PRODUCTION FILE, CHANGE THE FILE PATH TO 'dist/' instead of 'app/' 
 app.get('/', function(req,res) {
   res.sendFile(__dirname+'/app/index.html')
 });
