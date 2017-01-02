@@ -1,4 +1,4 @@
-TwitchTV Monitor
+WikiViewer
 ------------------
 
 A simple web application for searching and viewing Wikipedia articles. The application is built on **Nodejs** and **Express js** web framework, using a number of tools and libraries detailed in the following section.
